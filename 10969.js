@@ -24,5 +24,5 @@ function main(num) {
   console.log(parseInt(a / b));
   console.log(a % b);
 }
-// const inputData1 = fs.readFileSync("/dev/stdin").toString();
-main("7 3");
+const inputData1 = fs.readFileSync("/dev/stdin").toString();
+main(inputData1);

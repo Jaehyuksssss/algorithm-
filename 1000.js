@@ -20,4 +20,4 @@ function main(num) {
 }
 
 const inputData1 = fs.readFileSync("/dev/stdin").toString();
-main(inputData1);
+main(1, 2);

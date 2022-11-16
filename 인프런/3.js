@@ -5,3 +5,9 @@
 // 첫 번째 줄에 필요한 다스 수를 출력합니다.
 // ▣ 입력예제 1 25
 // ▣ 출력예제 1 3
+
+function solution(n) {
+  let answer
+  answer = Math.ceil(n / 12)
+  return answer
+}

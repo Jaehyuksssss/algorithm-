@@ -4,3 +4,12 @@
 // 머쓱이가 최대로 마실 수 있는 아메리카노의 잔 수와 남는 돈을 순서대로 담은 배열을
 // return 하도록 solution 함수를 완성해보세요.
 
+function solution(money) {
+
+    if(money<=1000000 && money >0) {
+        let i = parseInt(money/5500);
+        let j = money-(5500*i);
+        let result=[i, j]
+        return result;
+    }
+}

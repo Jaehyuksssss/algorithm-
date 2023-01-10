@@ -2,7 +2,7 @@
 
 function solution(num, total) {
   let startNum = 0;
-  // 초반 [0~num]의 배열을 생ㅅ어
+  // 초반 [0~num]의 배열을 생성
   let twoPointer = new Array(num)
     .fill(0)
     .map((a, i) => i)

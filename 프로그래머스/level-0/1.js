@@ -3,6 +3,6 @@
 // 예를들어 s가 "1 2 3 4"라면 "1 4"를 리턴하고, "-1 -2 -3 -4"라면 "-4 -1"을 리턴하면 됩니다.
 
 function solution(s) {
-  s = s.split(" ");
-  return `${Math.min(...s)} ${Math.max(...s)}`;
+  s = s.split(' ')
+  return `${Math.min(...s)} ${Math.max(...s)}`
 }

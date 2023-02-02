@@ -9,7 +9,6 @@ function solution(s) {
   let arr = [s].join('').split('')
   let mid = Math.round(arr.length / 2 - 1)
   let answer = []
-  console.log(mid)
   if (s.length % 2 === 1) {
     answer.push(arr[mid])
   } else if (s.length % 2 === 0) {

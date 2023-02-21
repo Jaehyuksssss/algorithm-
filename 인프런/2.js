@@ -7,3 +7,17 @@
 // ▣ 출력예제 1 YES
 // ▣ 입력예제 1 13 33 17
 // ▣ 출력예제 1 NO
+
+function solution(a, b, c) {
+  let answer = []
+  let SortArr = [a, b, c].sort((a, b) => b - a)
+  for (let i = 0; i < SortArr.length; i++) {
+    if (SortArr[0] > SortArr[1] + SortArr[2]) {
+      answer.push(NO)
+    } else {
+      answer.push(YES)
+    }
+  }
+  return answer[0]
+}
+console.log(solution(6, 7, 11))

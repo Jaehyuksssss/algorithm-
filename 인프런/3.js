@@ -11,3 +11,11 @@ function solution(n) {
   answer = Math.ceil(n / 12)
   return answer
 }
+
+function solution(a) {
+  let dozen = 12
+  let answer = a / dozen + 1
+  return parseInt(answer)
+}
+console.log(solution(25))
+console.log(solution(33))
